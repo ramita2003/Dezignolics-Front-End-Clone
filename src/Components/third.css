@@ -1,0 +1,35 @@
+.work {
+  background-color: #d7d7d7;
+  display: flex;
+  padding: 0% 10%;
+}
+
+.left {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workinfo {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 1rem;
+  font-size: 18px;
+  color: #505060;
+}
+.workinfo > h4 {
+  padding: 1rem;
+  background-color: white;
+  border-left: 3px solid #5e87eb;
+  border-radius: 0.2rem;
+}
+#w1 {
+  background-color: #5e87eb;
+}
+.right {
+  width: 100%;
+}

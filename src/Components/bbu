@@ -1,0 +1,73 @@
+sur 3rd part
+HTML
+<div className="work">
+    <div className="left">
+        <div className="worktitle">
+            <p>OUR WORK PROCESS</p>
+        </div>
+        <div className="workinfo">
+            <div className="worklist">
+                <p>1. Prerequisite</p>
+            </div>
+            <div className="worklist">
+                <p>2. UI/UX Design</p>
+            </div>
+            <div className="worklist">
+                <p>3. Prototyping</p>
+            </div>
+            <div className="worklist">
+                <p>4. Development</p>
+            </div>
+            <div className="worklist">
+                <p>5. Quality Assurance</p>
+            </div>
+            <div className="worklist">
+                <p>6. Deployment & Support</p>
+            </div>
+        </div>
+    </div>
+    <div className="right">
+        <img className="workimage" src={workimg} alt="Work Image" />
+    </div>
+</div>
+
+<div className="industries">
+    <div></div>
+</div>
+
+CSSS
+.work {
+border: 2px solid black;
+background-color: #d7d7d7;
+display: flex;
+padding: 0% 10%;
+}
+
+.left {
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+}
+.worktitle {
+border: 2px solid black;
+font-size: 40px;
+}
+.workinfo {
+border: 2px solid black;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+font-size: 18px;
+color: #505060;
+}
+.worklist {
+border: 2px solid black;
+display: grid;
+margin: 5%;
+}
+
+.right {
+border: 2px solid black;
+}

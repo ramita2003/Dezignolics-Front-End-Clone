@@ -1,0 +1,33 @@
+.industriesouter {
+  margin: 10%;
+}
+.industriesouter > h1 {
+  text-align: center;
+}
+.industriesouter > h3 {
+  text-align: center;
+  padding: 1rem;
+  color: #6e7180;
+}
+.industriesinner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.industry {
+  height: 10rem;
+  width: 20rem;
+  margin: 2rem 2rem 2rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.5) 7px 4px 10px 0px;
+  display: grid;
+  place-items: center;
+}
+.industry > h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+.industryimg {
+  height: 5rem;
+  width: 5rem;
+}
